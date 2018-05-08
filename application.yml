@@ -6,8 +6,7 @@ spring:
     mongodb:
       host: 10.20.10.83
       port: 27017
-      username: micro 
-      password: micro
+
   rabbitmq:
     host: 10.20.10.83
     port: 30000
