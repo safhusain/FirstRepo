@@ -4,11 +4,11 @@ server:
 spring:
   data:
     mongodb:
-      host: 10.20.10.83
+      host: localhost
       port: 27017
 
   rabbitmq:
-    host: 10.20.10.83
+    host: localhost
     port: 30000
     username: guest
     password: guest
