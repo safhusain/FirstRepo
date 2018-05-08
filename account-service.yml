@@ -4,11 +4,11 @@ server:
 spring:
   data:
     mongodb:
-      host: 10.20.10.83
+      host: localhost
       port: 27017
 
   rabbitmq:
-    host: 10.20.10.83
+    host: localhost
     port: 30000
     username: guest
     password: guest
@@ -21,11 +21,11 @@ test:
   accounts:
     - id: 1
       number: '0654321789'
-      balance: 3550
+      balance: 4550
       customerId: 1
     - id: 2
       number: '0654321780'
-      balance: 10
+      balance: 40
       customerId: 1
     - id: 3
       number: '0650981789'
